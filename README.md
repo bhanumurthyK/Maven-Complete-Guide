@@ -219,7 +219,8 @@ What is pom.xml?
 │    - What Java version does it use?                                 │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
-Our Project's pom.xml — Completely Explained
+
+```Our Project's pom.xml — Completely Explained
 xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -555,7 +556,10 @@ xml
     -->
 
 </project>
-CHAPTER 4 — DEPENDENCY SCOPES
+```
+
+### CHAPTER 4 — DEPENDENCY SCOPES ###
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    DEPENDENCY SCOPES                                │
 └─────────────────────────────────────────────────────────────────────┘
@@ -603,8 +607,10 @@ runtime:            mysql-connector-j
                     (needed to run, not to compile)
 
 test:               spring-boot-starter-test
-                    (only for running tests)
-CHAPTER 5 — MAVEN BUILD LIFECYCLE
+                    (only for running tests) ```
+
+### CHAPTER 5 — MAVEN BUILD LIFECYCLE ###
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │              MAVEN LIFECYCLE — THE BUILD PHASES                     │
 └─────────────────────────────────────────────────────────────────────┘
@@ -701,8 +707,10 @@ COMMON COMMANDS AND WHAT THEY DO:
   Special Spring Boot plugin command
   Compiles and runs the application
   Equivalent to: compile + start app
-  No JAR created
-CHAPTER 6 — THE MAVEN WRAPPER (mvnw)
+  No JAR created ```
+  
+### CHAPTER 6 — THE MAVEN WRAPPER (mvnw)###
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    WHAT IS mvnw?                                    │
 └─────────────────────────────────────────────────────────────────────┘
@@ -761,8 +769,10 @@ INTERVIEW ANSWER:
   "mvnw is the Maven Wrapper. It ensures everyone builds
    the project with the exact same Maven version by
    downloading it automatically if not present.
-   This eliminates 'works on my machine' build problems."
-CHAPTER 7 — STARTERS EXPLAINED
+   This eliminates 'works on my machine' build problems." ```
+
+### CHAPTER 7 — STARTERS EXPLAINED ###
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │              WHAT ARE SPRING BOOT STARTERS?                        │
 └─────────────────────────────────────────────────────────────────────┘
@@ -824,8 +834,10 @@ spring-boot-starter-test
 │  • AssertJ                                                      │
 │  • Spring Test                                                  │
 │  • Hamcrest                                                     │
-└──────────────────────────────────────────────────────────────────┘
-CHAPTER 8 — TARGET FOLDER
+└──────────────────────────────────────────────────────────────────┘ ```
+
+### CHAPTER 8 — TARGET FOLDER ###
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │              THE target/ FOLDER                                     │
 └─────────────────────────────────────────────────────────────────────┘
@@ -872,8 +884,10 @@ target/
 
     You can run it with:
     java -jar employee-management-system-0.0.1-SNAPSHOT.jar
-    → Starts the entire app anywhere Java 17 is installed!
-CHAPTER 9 — MAVEN IN THIS PROJECT: COMPLETE FLOW
+    → Starts the entire app anywhere Java 17 is installed! ```
+
+### CHAPTER 9 — MAVEN IN THIS PROJECT: COMPLETE FLOW ###
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │        WHAT HAPPENS WHEN YOU RUN ./mvnw spring-boot:run            │
 └─────────────────────────────────────────────────────────────────────┘
@@ -957,8 +971,9 @@ YOU TYPE: ./mvnw spring-boot:run
                │
                ▼
     "Started EmployeeManagementSystemApplication in X seconds"
-    App is running! Browser can connect.
-CHAPTER 10 — INTERVIEW QUESTIONS & ANSWERS
+    App is running! Browser can connect.```
+
+### CHAPTER 10 — INTERVIEW QUESTIONS & ANSWERS ###
 Q1. "What is Maven? Why do we use it?"
 
 "Maven is a build automation and dependency management tool for Java projects. We use it to solve three main problems:
@@ -1083,7 +1098,7 @@ In our project, this is mostly avoided because we inherit from spring-boot-start
 
 You can also explicitly override a version by declaring it directly in your pom.xml — your explicit declaration always wins."
 
-CHAPTER 11 — QUICK REFERENCE SUMMARY
+### CHAPTER 11 — QUICK REFERENCE SUMMARY ###
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    MAVEN CHEAT SHEET                                │
 └─────────────────────────────────────────────────────────────────────┘
