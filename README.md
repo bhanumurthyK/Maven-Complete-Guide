@@ -1,6 +1,8 @@
-Maven — Complete Guide for Interviews
-CHAPTER 1 — WHAT IS MAVEN? (Start From Zero)
-The Problem Maven Solves
+# Maven — Complete Guide for Interviews
+
+ ## CHAPTER 1 — WHAT IS MAVEN? (Start From Zero)
+### The Problem Maven Solves
+```mermaid
 IMAGINE YOU ARE BUILDING A SPRING BOOT PROJECT WITHOUT MAVEN:
 ─────────────────────────────────────────────────────────────────────
 
@@ -45,6 +47,7 @@ PROBLEMS:
 ❌ No standard way to build the project
 ❌ No standard way to run tests
 ❌ Teammates can't easily set up the project
+```
 
 One Line Definition
 ┌─────────────────────────────────────────────────────────────────────┐
